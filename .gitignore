@@ -151,3 +151,7 @@ crashlytics-build.properties
 /onnxruntime_providers_cuda.dll.meta
 /onnxruntime_providers_shared.dll.meta
 /onnxruntime_providers_tensorrt.dll.meta
+
+# Debug
+/Assets/Backup/*
+/Assets/Backup.meta
