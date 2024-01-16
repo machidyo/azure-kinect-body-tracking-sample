@@ -54,5 +54,4 @@ public class PuppetAvatar : MonoBehaviour
             finalJoint.position = characterRootTransform.position + new Vector3(p.x, p.y + offsetY, p.z - offsetZ);
         }
     }
-
 }
