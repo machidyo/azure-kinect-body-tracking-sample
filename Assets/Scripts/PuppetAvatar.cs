@@ -4,20 +4,20 @@ using Microsoft.Azure.Kinect.BodyTracking;
 
 public class PuppetAvatar : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private TrackerHandler kinectDevice;
     [SerializeField] private GameObject rootPosition;
 
+    [Header("Puppet Settings")]
+    [SerializeField] private Animator puppetAnimator;
     [SerializeField] private  Transform characterRootTransform;
     [SerializeField] private  float offsetY;
     [SerializeField] private  float offsetZ;
 
     private Dictionary<JointId, Quaternion> absoluteOffsetMap;
-    private Animator puppetAnimator;
 
     void Start()
     {
-        puppetAnimator = GetComponent<Animator>();
-
         absoluteOffsetMap = new Dictionary<JointId, Quaternion>();
         for (var i = 0; i < (int)JointId.Count; i++)
         {

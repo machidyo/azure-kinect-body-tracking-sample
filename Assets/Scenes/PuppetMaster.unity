@@ -5170,6 +5170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kinectDevice: {fileID: 472038950}
   rootPosition: {fileID: 1059247371}
+  puppetAnimator: {fileID: 5507938846518831701}
   characterRootTransform: {fileID: 5507938846526047479}
   offsetY: 0
   offsetZ: 0
