@@ -5168,11 +5168,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8a61e8b373262a4fad634746a21fd2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KinectDevice: {fileID: 472038950}
-  RootPosition: {fileID: 1059247371}
-  CharacterRootTransform: {fileID: 5507938846526047479}
-  OffsetY: 0
-  OffsetZ: 0
+  kinectDevice: {fileID: 472038950}
+  rootPosition: {fileID: 1059247371}
+  characterRootTransform: {fileID: 5507938846526047479}
+  offsetY: 0
+  offsetZ: 0
 --- !u!1 &5507938846526216247
 GameObject:
   m_ObjectHideFlags: 0
